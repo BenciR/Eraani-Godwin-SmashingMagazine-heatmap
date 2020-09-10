@@ -4,15 +4,40 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  height: 10vh;
+html,
+body {
+  font-family: Mija;
+  font-size: 75%;
+}
+
+.header {
+  padding: 15px;
   background-color: rgb(122, 122, 122);
 }
 
-.navbar-list {
+.navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Mija;
+  font-size: 1.5rem;
+}
+
+.navbar-list {
   list-style: none;
+  text-align: center;
+  display: inline-flex;
+  /* width: 75%; */
+}
+
+.navbar-list_link {
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 10px;
+  /* margin: 10px 3px 0 5px; */
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .h-5vh {
@@ -20,18 +45,10 @@
 }
 
 .logo {
-  width: 15%;
-  background-color: rgb(75, 75, 75);
-  margin: 10px 0 0 5px;
-  border-radius: 10%;
-}
-
-.navbar-list_link {
-  width: 5%;
-  background-color: rgb(75, 75, 75);
-  border: 1px solid rgb(75, 75, 75);
-  border-radius: 20%;
-  margin: 10px 3px 0 5px;
+  width: 13rem;
+  /* background-color: rgb(75, 75, 75); */
+  /* margin: 10px 0 0 5px; */
+  /* border-radius: 10px; */
 }
 
 .more {
@@ -40,14 +57,17 @@
 
 .searchbar {
   width: 20%;
-  background-color: rgb(29, 29, 29);
-  margin-top: 10px;
-  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  /* margin-top: 10px; */
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
 }
 
 .latest-articles {
   display: flex;
   flex-wrap: wrap;
+  font-size: 2rem;
 }
 
 .latest-articles_title {
@@ -57,6 +77,7 @@
   height: 10vh;
   width: 30%;
   background-color: rgb(155, 155, 155);
+  text-align: center;
 }
 
 .latest-articles_subtitle {
@@ -66,6 +87,7 @@
   height: 10vh;
   width: 10%;
   background-color: rgb(155, 155, 155);
+  text-align: center;
 }
 
 .article {
