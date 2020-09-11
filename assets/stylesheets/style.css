@@ -115,7 +115,9 @@ body {
   background-color: rgb(138, 138, 138);
 }
 
-.art {}
+.art {
+  width: 75%;
+}
 
 .text {
   font-size: 3rem;
