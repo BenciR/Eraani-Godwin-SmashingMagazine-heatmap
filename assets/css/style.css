@@ -1,10 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
 html,
 body {
+  position: relative;
   font-family: "MijaW03-Regular";
   font-size: 75%;
 }
@@ -12,6 +9,10 @@ body {
 .header {
   padding: 15px;
   background-color: rgb(122, 122, 122);
+}
+
+.logo {
+  width: 17rem;
 }
 
 .navbar {
@@ -42,16 +43,12 @@ body {
   /* height: 5vh; */
 }
 
-.logo {
-  width: 17rem;
-}
-
 .more {
   background-color: rgb(49, 49, 49);
 }
 
 .searchbar {
-  width: 20%;
+  /* width: 20%; */
   background-color: rgb(255, 255, 255);
   /* margin-top: 10px; */
   border-radius: 10px;
@@ -63,6 +60,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   font-size: 2rem;
+  position: relative;
 }
 
 .latest-articles_title {
