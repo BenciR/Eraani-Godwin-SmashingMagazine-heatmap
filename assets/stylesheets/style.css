@@ -11,6 +11,8 @@ body {
   background-color: rgb(122, 122, 122);
 }
 
+/* ...navbar... */
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -79,6 +81,8 @@ body {
   font-weight: 900;
 }
 
+/* ........ */
+
 .latest-articles {
   display: flex;
   flex-wrap: wrap;
@@ -109,6 +113,14 @@ body {
   width: 50%;
   height: 100vh;
   background-color: rgb(138, 138, 138);
+}
+
+.art {}
+
+.text {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
 }
 
 .a-left {
