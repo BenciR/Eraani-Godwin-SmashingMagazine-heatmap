@@ -104,3 +104,285 @@ body {
 .a-left_bottom {
   background-color: rgb(85, 85, 85);
 }
+
+/*Latest Post*/
+
+.latest-post {
+  margin: 5rem;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.latest-post_time {
+  font-size: 1rem;
+  color: #a5a5a5;
+}
+
+.latest-post_title {
+  font-size: 2.3rem;
+  text-decoration: underline;
+}
+
+.latest-post_author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1.5rem 0 1.5rem 0;
+  color: rgb(65, 65, 65);
+}
+
+.latest-post_author > span {
+  text-decoration: underline;
+}
+
+.latest-post_text {
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+  line-height: 2.5rem;
+}
+
+.latest-post_img {
+  width: 2rem;
+}
+
+/* Ad */
+
+.ad {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(75, 75, 75);
+}
+
+.ad-img{
+  width: 20%;
+}
+
+.ad-text{
+  position: relative;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.ad-img {
+  position: absolute;
+  left: 45rem;
+  margin-top: 3rem;
+  
+}
+
+.ad-statistic{
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-decoration: underline;
+
+}
+
+.ad-description{
+  padding: 3% 0 3% 0;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.ad-description > span{
+  text-decoration: underline;
+}
+
+.ad-btn{
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: none;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 5%;
+  width: 20rem;
+}
+
+.ad-btn_img{
+  width: 7%;
+}
+
+.ad-account{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.ad-account > a{
+  text-decoration: underline;
+}
+
+/*Article + ad*/
+
+.article-ad{
+  margin: 3%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+
+.article-ad_time {
+  font-size: 1rem;
+  color: #a5a5a5;
+}
+
+.article-ad_title {
+  font-size: 2.3rem;
+  text-decoration: underline;
+}
+
+.article-ad_author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1.5rem 0 1.5rem 0;
+  color: rgb(65, 65, 65);
+}
+
+.article-ad_author > span {
+  text-decoration: underline;
+}
+
+.article-ad_text {
+  color: #000;
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+  line-height: 2.5rem;
+}
+
+.article-ad1_img {
+  width: 2rem;
+}
+
+.article-ad_ad {
+  height: 100vh;
+  background-color: rgb(75, 75, 75);
+  border-radius: 10px;
+}
+
+/* Article + Ad: Ad*/
+
+.article-ad_ad_img {
+  position: absolute;
+  left: 60rem;
+  margin-top: 3rem;
+  width: 20%;
+}
+
+.article-ad_ad_text{
+  position: relative;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.article-ad_ad_statistic{
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-decoration: underline;
+
+}
+
+.article-ad_ad_description{
+  padding: 3% 0 3% 0;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.article-ad_ad_description > span{
+  text-decoration: underline;
+}
+
+.article-ad_ad_btn{
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: none;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 5%;
+  width: 20rem;
+}
+
+.article-ad_ad_btn_img{
+  width: 7%;
+}
+
+.article-ad_ad_account{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.article-ad_account > a{
+  text-decoration: underline;
+}
+
+
+.latest-articles_linkto{
+  width: 100%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(63, 63, 63);
+}
+
+.latest-articles_linkto > a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkto_img{
+  width: 4%;
+}
+
+/* Click */
+
+.click{
+  margin-top: 2%;
+  height: 140vh;
+  background-color: rgb(46, 46, 46);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.click-time{
+  font-size: 1.5rem;
+  margin-top: 3%;
+}
+
+.click-title{
+  font-size: 4rem;
+  text-decoration: underline;
+  margin: 3% 0 3% 0;
+}
+
+.click-description{
+  font-size: 1.6rem;
+}
+
+.click-button{
+  width: 30rem;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 10% 0 10% 0;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.click-btn_img{
+  width: 5%;
+}
+
+
+
+
