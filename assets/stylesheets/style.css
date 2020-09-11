@@ -87,43 +87,95 @@ body {
   display: flex;
   flex-wrap: wrap;
   font-size: 2rem;
+  position: relative;
 }
 
 .latest-articles_title {
   position: absolute;
-  top: 20%;
+  top: 3%;
   left: 35%;
-  height: 10vh;
   width: 30%;
   background-color: rgb(155, 155, 155);
   text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
 .latest-articles_subtitle {
   position: absolute;
-  top: 30%;
+  top: 7.6%;
   left: 45%;
-  height: 10vh;
   width: 10%;
   background-color: rgb(155, 155, 155);
   text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
 .article {
   width: 50%;
   height: 100vh;
   background-color: rgb(138, 138, 138);
+  color: white;
 }
 
 .art {
-  width: 75%;
+  width: 60%;
+  padding-top: 18rem;
+  padding-left: 6rem;
+}
+
+.imgheading {
+  display: flex;
+  align-items: top;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.profileimg {
+  width: 6rem;
+  border: 5px solid white;
+  border-radius: 8px;
+  transform: rotate(-15deg);
+}
+
+.profileimg:hover {
+  transform: none;
+}
+
+.na{
+  /* margin-top: -2rem; */
+  /* padding-bottom: 2rem; */
+}
+
+.light {
+  font-weight: normal;
 }
 
 .text {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: white;
   font-weight: bold;
+  padding-top: 3rem;
 }
+
+.com {
+  font-size: 1.2rem;
+}
+
+.hashtags {
+  padding-top: 4rem;
+}
+
+/* .sup {
+  font-size: 1.2rem;
+} */
 
 .a-left {
   background-color: rgb(110, 110, 110);
