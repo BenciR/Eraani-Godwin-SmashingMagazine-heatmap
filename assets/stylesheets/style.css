@@ -17,7 +17,6 @@ body {
   align-items: center;
   color: white;
   font-family: "MijaW03-Regular";
-  /* padding: 0.5rem 1.2rem; */
 }
 
 .logo {
@@ -32,8 +31,6 @@ body {
 }
 
 .navbar-list_link {
-  /* background-color: rgb(75, 75, 75); */
-  /* border: 1px solid rgb(75, 75, 75); */
   border-radius: 10px;
   padding: 1rem 1.2rem; 
   font-size: 1.7rem;
@@ -52,7 +49,6 @@ body {
 }
 
 .more {
-  background-color: rgb(49, 49, 49);
   padding: 0.7rem 1rem;
 }
 
@@ -70,7 +66,7 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   border: none;
-  padding: 1.2rem;
+  padding: 1.4rem;
   margin-left: 1.6rem;
 }
 
