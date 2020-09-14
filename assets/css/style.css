@@ -335,11 +335,18 @@ body {
 .latest-articles_linkto > a{
   text-decoration: none;
   color: inherit;
+  text-transform: uppercase;
+}
+
+.linkto-separator{
+  width: 20rem;
+  border: 3px solid rgb(71, 71, 71);
 }
 
 .linkto_img{
   width: 4%;
 }
+
 
 /* Click */
 
