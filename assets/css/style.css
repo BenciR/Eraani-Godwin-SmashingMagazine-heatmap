@@ -536,19 +536,39 @@ body {
   width: 100%;
 }
 
+.footer{
+  background-color:rgb(70, 70, 70);
+  font-family: 'Lora', serif;
+  margin-top: 5%;
+}
+
 .footer-content {
   max-width: 122.667rem;
   width: 95%;
-  margin: 0 auto;
   text-align: center;
+  color: #fff;
 }
 
+.browse{
+  font-size: 1.3rem;
+  padding: 3% 0 3% 0;
+  font-weight: bold;
+}
 
 .smash {}
 
 .smash-links {
   display: inline-block;
   list-style-type: disc;
+  font-size: 2rem;
+  padding-left: 0.4rem;
+  line-height: 5rem;
+}
+
+.smash-links:before {
+  content: "•";
+  padding-right: 0.4rem;
+  color: rgb(48, 47, 47);
 }
 
 .info{}
@@ -556,5 +576,20 @@ body {
 .info .cart {
   width: 6rem;
   float: left;
+}
+
+.info-msg{
+  width: 35%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding-top: 6%;
+  line-height: 2rem;
+}
+
+.info-links{
+  word-spacing: 3rem;
+  font-size: 1.2rem;
+  line-height: 3.5rem;
+  padding: 2.5% 0 3% 0;
 }
 
