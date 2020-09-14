@@ -106,7 +106,7 @@ body {
 
 .latest-articles_subtitle {
   position: absolute;
-  top: 7.6%;
+  top: 7.2%;
   left: 45%;
   width: 10%;
   background-color: rgb(155, 155, 155);
@@ -149,11 +149,6 @@ body {
   transform: none;
 }
 
-.na{
-  /* margin-top: -2rem; */
-  /* padding-bottom: 2rem; */
-}
-
 .light {
   font-weight: normal;
 }
@@ -171,11 +166,13 @@ body {
 
 .hashtags {
   padding-top: 4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-/* .sup {
-  font-size: 1.2rem;
-} */
+.sup {
+  font-size: 1rem;
+}
 
 .a-left {
   background-color: rgb(110, 110, 110);
