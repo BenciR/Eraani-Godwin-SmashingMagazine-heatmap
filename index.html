@@ -1,61 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Smashing Magazine</title>
+    <link href="assets/stylesheets/reset.css" rel="stylesheet"/>
+    <link href="assets/stylesheets/style.css" rel="stylesheet"/>
+    <link href="//db.onlinewebfonts.com/c/4fb2accf874593635afa99c122467fd6?family=MijaW03-Regular" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img src="https://www.smashingmagazine.com/images/logo--full.svg" class="logo" alt="" srcset=""/>
+        <ul class="navbar-list">
+          <li class="navbar-list_link"><a href="#" class="n-d">Articles</a></li>
+          <li class="navbar-list_link"><a href="#" class="n-d">Guides</a></li>
+          <li class="navbar-list_link"><a href="#" class="n-d">Books</a></li>
+          <li class="navbar-list_link"><a href="#" class="n-d">Events</a></li>
+          <li class="navbar-list_link"><a href="#" class="n-d">Membership</a></li>
+          <li class="navbar-list_link"><a href="#" class="n-d">Jobs</a></li>
+          <li class="navbar-list_link more active"><a href="#" class="n-d">More</a><img src="https://www.smashingmagazine.com/images/icons/menu-cat.svg" class="cat" alt=""></li>
+        </ul>
+        <input type="search" class="searchbar" name="" placeholder="Search articles..." id=""/>
+      </nav>
+    </header>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Smashing Magazine</title>
-  <link href="assets/css/style.css" rel="stylesheet" />
-  <link href="//db.onlinewebfonts.com/c/4fb2accf874593635afa99c122467fd6?family=MijaW03-Regular" rel="stylesheet"
-    type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-  <header class="header">
-    <nav class="navbar">
-      <div>
-        <img src="https://www.smashingmagazine.com/images/logo--full.svg" class="logo" alt="" srcset="" />
+    <div class="latest-articles">
+      <div class="latest-articles_title">Don't miss this latest</div>
+      <div class="latest-articles_subtitle">Articles</div>
+      <article class="article a-left">
+        <div class="art">
+          <div class="imgheading"><img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82c26edc-5500-42a6-87a9-62e84b998433/rachel-andrew-tw-profile.jpg" class="profileimg" alt=""/><p>Rachael Andrew <span class="light">wrote</span></p></div>
+          <p class="text">Smashing Magazine is Fourteen!   <span class="com">3 comments</span></p>
+          <p class="hashtags">
+            <span class="ht"># Events<sup class="sup">91</sup></span>
+            <span class="ht"># Smashing<sup class="sup">11</sup></span>
+            <span class="ht"># Smashing Conf<sup class="sup">33</sup></span>
+          </p>
+        </div>
+      </article>
+      <article class="article">
+        <div class="art">
+          <div class="imgheading"><img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82c26edc-5500-42a6-87a9-62e84b998433/rachel-andrew-tw-profile.jpg" class="profileimg" alt=""/> Katy Bowman<span class="light">wrote</span></div>
+          <p class="text">An Introduction to running Lighthouse Programmatically<span class="com">1 comment</span></p>
+          <p class="hashtags">
+            <span class="ht"># Performance<sup class="sup">131</sup></span>
+            <span class="ht"># Techniques<sup class="sup">241</sup></span>
+            <span class="ht"># Tools<sup class="sup">251</sup></span>
+          </p>
+        </div>
+      </article>
+      <article class="article a-left_bottom">
+        <div class="art">
+          <div class="imgheading"><img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82c26edc-5500-42a6-87a9-62e84b998433/rachel-andrew-tw-profile.jpg" class="profileimg" alt=""/> Jonathan Kelley<span class="light">wrote</span></div>
+          <p class="text">Desiging with reduced motion for motion sensitives<span class="com">Leave a comment</span></p>
+          <p class="hashtags">
+            <span class="ht"># API<sup class="sup"></sup></span>
+            <span class="ht"># CMS<sup class="sup"></sup></span>
+            <span class="ht"><sup class="sup"></sup></span>
+          </p>
       </div>
-      <ul class="navbar-list">
-        <li class="navbar-list_link h-5vh">Articles</li>
-        <li class="navbar-list_link h-5vh">Guides</li>
-        <li class="navbar-list_link h-5vh">Books</li>
-        <li class="navbar-list_link h-5vh">Events</li>
-        <li class="navbar-list_link h-5vh">Membership</li>
-        <li class="navbar-list_link h-5vh">Jobs</li>
-        <li class="navbar-list_link h-5vh more">More</li>
-      </ul>
-      <input type="search" class="searchbar h-5vh" name="" placeholder="Search" id="" />
-    </nav>
-  </header>
-
-  <div class="latest-articles">
-    <div class="latest-articles_title">Dont miss this latest</div>
-    <div class="latest-articles_subtitle">articles</div>
-    <article class="article a-left">
-      <div><img src="" alt="" />Jonathan kelley wrote</div>
-      <div>Get up and running with craft cms</div>
-      <div></div>
-    </article>
-    <article class="article">
-      <div><img src="" alt="" />Ibrahima Ndaw wrote</div>
-      <div>how to build a blog with next and mdx</div>
-      <div></div>
-    </article>
-    <article class="article a-left_bottom">
-      <div><img src="" alt="" />Val head wrote</div>
-      <div>Desiging with reduced motiion for motion sensitives</div>
-      <div></div>
-    </article>
-    <article class="article a-left">
-      <div><img src="" alt="" />Drew Maclellan wrote</div>
-      <div>Smashing podcast episode 24</div>
-      <div></div>
-    </article>
-  </div>
-
+      </article>
+      <article class="article a-left">
+        <div class="art">
+          <div class="imgheading"><img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82c26edc-5500-42a6-87a9-62e84b998433/rachel-andrew-tw-profile.jpg" class="profileimg" alt=""/>Ibrahima Ndaw <span class="light">wrote</span></div>
+          <p class="text">Smashing podcast episode 24<span class="com">Leave a comment
+            <p class="hashtags">
+              <span class="ht"># React<sup class="sup"></sup></span>
+              <span class="ht"># Javascript<sup class="sup"></sup></span>
+              <span class="ht"># Frameworks<sup class="sup"></sup></span>
+            </p>
+        </div>
+      </article>
+    </div>
+    
   <!--Latest Post Section-->
   <section class="latest-post">
     <article class="latest-post_article">
