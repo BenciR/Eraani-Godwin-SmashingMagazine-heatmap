@@ -586,10 +586,14 @@ body {
   line-height: 2rem;
 }
 
+.info-list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
 .info-links{
-  word-spacing: 3rem;
   font-size: 1.2rem;
-  line-height: 3.5rem;
   padding: 2.5% 0 3% 0;
 }
 
