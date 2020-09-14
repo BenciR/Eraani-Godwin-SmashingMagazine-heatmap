@@ -466,6 +466,95 @@ body {
   line-height: 2.5rem;
 }
 
+.des {
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color:rgb(70, 70, 70);
+  color: #fff;
+
+}
+
+.des-sys {
+  float: left;
+  width: 80%;
+  margin: 4% 0 0 7%;
+}
+
+.des-section{
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+}
+
+.des-title{
+  font-size: 4rem;
+  margin: 3% 0 3% 0;
+}
+
+.des-description{
+  font-size: 1.5rem;
+  line-height: 2.5rem;  
+}
+
+.des-btn{
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.des-cov{
+  position: relative;
+  top: -8rem;
+  width: 23rem;
+  transform: rotate(-15deg);
+}
+
+.des-cov:hover{
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.guides {
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.events {
+  max-width: 54.1667rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ev-img {
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 122.667rem;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
+.smash {}
+
+.smash-links {
+  display: inline-block;
+  list-style-type: disc;
+}
+
+.info{}
+
+.info .cart {
+  width: 6rem;
+  float: left;
+}
 
