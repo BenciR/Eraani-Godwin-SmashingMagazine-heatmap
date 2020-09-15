@@ -624,27 +624,31 @@ body {
   width: 95%;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
 }
 
-.browse{
+.browse {
   font-size: 1.3rem;
-  padding: 3% 0 3% 0;
+  /* padding: 3% 0 3% 0; */
   font-weight: bold;
+  margin-top: 2rem;
 }
 
-.smash {}
+.smash-topics {
+  font-size: 2.0851rem;
+}
 
 .smash-links {
   display: inline-block;
   list-style-type: disc;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   padding-left: 0.4rem;
   line-height: 5rem;
 }
 
 .smash-links:before {
   content: "•";
-  padding-right: 0.4rem;
+  padding-right: 0.5rem;
   color: rgb(48, 47, 47);
 }
 
@@ -659,18 +663,30 @@ body {
   width: 35%;
   margin: 0 auto;
   font-size: 1.2rem;
-  padding-top: 6%;
+  /* padding-top: 6%; */
   line-height: 2rem;
 }
 
 .info-list{
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  list-style: none;
+  list-style: none; */
+  font-size: 1.3983rem;
+  max-width: 41.96rem;
+  margin: 0 auto;
+}
+
+.info-li {
+  display: inline-block;
+  padding: 0.8333rem 0rem;
+  margin: 0 0.4rem;
 }
 
 .info-links{
-  font-size: 1.2rem;
-  padding: 2.5% 0 3% 0;
+  /* font-size: 1.2rem;
+  padding: 2.5% 0 3% 0; */
+  width: ;
+  text-decoration: underline;
+  color: #fff;
 }
 
