@@ -646,9 +646,13 @@ body {
 .smash-links {
   display: inline-block;
   list-style-type: disc;
-  /* font-size: 2rem; */
   padding-left: 0.4rem;
   line-height: 5rem;
+}
+
+.smh-li {
+  color: inherit;
+  text-decoration: none;
 }
 
 .smash-links:before {
@@ -661,7 +665,6 @@ body {
 
 .cart {
   width: 6rem;
-  float: left;
 }
 
 .foot-info {
@@ -682,10 +685,14 @@ body {
   color: #fff;
 }
 
+.info-l {
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+
 .info-list{
   padding: 1.3988rem 0;
   max-width: 41.96rem;
-  margin: 0 auto;
   width: 100%;
   font-family: Elena;
   font-size: 1.4rem;
