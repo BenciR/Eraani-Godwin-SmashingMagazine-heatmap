@@ -544,7 +544,6 @@ body {
 }
 
 .des {
-  height: 60vh;
   display: grid;
   grid-template-columns: 70% 30%;
   background-color:rgb(70, 70, 70);
@@ -606,14 +605,71 @@ body {
 .events {
   max-width: 54.1667rem;
   width: 100%;
-  margin: 0 auto;
+  margin: 2.5833rem auto;
+  padding: 1.75rem 0;
+  background-color: #6E6E6E;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.pad {
+  padding: 2rem 2.6667rem 0 2.6667rem;
+  /* width: 90%; */
+  /* margin: 0 auto; */
 }
 
 .ev-img {
   width: 100%;
 }
 
-.footer{
+.newsleta {
+  font-size: 3.75rem;
+  font-family: 'Mija';
+  text-decoration: underline;
+  padding: 0.8333rem 0;
+}
+
+.newsleta-text {
+  font-size: 1.75rem;
+  font-family: 'Elena';
+}
+
+.newsleta-info {
+  margin: 2.4167rem 0;
+  line-height: 1.5;
+  /* text-align: left; */
+}
+
+.form-ev {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  border-radius: 15px;
+  padding-bottom: 1rem;
+}
+
+.form-ev .form-name[placeholder="Your email"] {
+  padding: 1.5rem 2rem;
+}
+
+.form-ev .form-name {}
+
+.form-ev .ev-but {
+  background-color: #676767;
+  color: #fff;
+}
+
+.sub {
+  font-family: "Elena";
+  font-size: 1.5rem;
+  width: 56%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.1rem 1.5rem;
+  background-color: #7C7C7C;
+  border-radius: 10px;
+}
+
+.footer {
   background-color:rgb(70, 70, 70);
   font-family: 'Lora', serif;
   margin-top: 5%;
