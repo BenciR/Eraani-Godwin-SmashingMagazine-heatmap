@@ -587,13 +587,19 @@ body {
 }
 
 .info-list{
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none;
+  padding: 3% 0 7% 0;
+  
 }
 
 .info-links{
+  margin-left: 5%;
   font-size: 1.2rem;
-  padding: 2.5% 0 3% 0;
+  text-decoration: underline;
 }
 
