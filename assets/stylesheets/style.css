@@ -248,9 +248,8 @@ body {
 
 .ad-img {
   width: 20%;
-  margin: 0 auto;
-  left: 45rem;
-  margin-top: 3rem;
+  padding-left: 40%;
+  margin-top: 2rem;
 }
 
 .ad-text {
