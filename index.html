@@ -13,7 +13,7 @@
 <body>
   <header class="header">
     <nav class="navbar d-flex c-fff ff-Jadi">
-      <img src="https://www.smashingmagazine.com/images/logo--full.svg" class="logo" alt="logo" srcset="" />
+      <img src="https://www.smashingmagazine.com/images/logo--full.svg" class="logo" alt="logo" />
       <ul class="navbar-list">
         <li class="navbar-list_link"><a href="#" class="n-d">Articles</a></li>
         <li class="navbar-list_link"><a href="#" class="n-d">Guides</a></li>
@@ -24,14 +24,14 @@
         <li class="navbar-list_link more active"><a href="#" class="n-d">More</a><img
             src="https://www.smashingmagazine.com/images/icons/menu-cat.svg" class="cat" alt="cat"></li>
       </ul>
-      <input type="search" class="searchbar" name="" placeholder="Search articles..." id="" />
+      <input type="search" class="searchbar" placeholder="Search articles..." />
     </nav>
   </header>
 
   <div class="latest-articles d-flex c-fff ff-Jadi">
     <div class="latest-articles_title ">Don't miss this latest</div>
     <div class="latest-articles_subtitle">Articles</div>
-    <article class="article a-left c-fff">
+    <div class="article a-left c-fff">
       <div class="art">
         <div class="imgheading d-flex mid-fs"><img
             src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82c26edc-5500-42a6-87a9-62e84b998433/rachel-andrew-tw-profile.jpg"
@@ -45,7 +45,7 @@
           <span class="ht"># Smashing Conf<sup class="sup">33</sup></span>
         </p>
       </div>
-    </article>
+    </div>
     <article class="article">
       <div class="art">
         <div class="imgheading d-flex mid-fs"><img
@@ -77,20 +77,20 @@
         <div class="imgheading d-flex mid-fs"><img
             src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/82c26edc-5500-42a6-87a9-62e84b998433/rachel-andrew-tw-profile.jpg"
             class="profileimg" alt="person profile pic" />Ibrahima Ndaw <span class="light">wrote</span></div>
-        <p class="text">Smashing podcast episode 24<span class="com">Leave a comment
-            <p class="hashtags">
-              <span class="ht"># React<sup class="sup"></sup></span>
-              <span class="ht"># Javascript<sup class="sup"></sup></span>
-              <span class="ht"># Frameworks<sup class="sup"></sup></span>
-            </p>
+        <p class="text">Smashing podcast episode 24<span class="com">Leave a comment</span></p>
+        <p class="hashtags">
+          <span class="ht"># React<sup class="sup"></sup></span>
+          <span class="ht"># Javascript<sup class="sup"></sup></span>
+          <span class="ht"># Frameworks<sup class="sup"></sup></span>
+        </p>
       </div>
     </article>
   </div>
 
   <!--Latest Post Section-->
   <section class="latest-post">
-    <article class="latest-post_article">
-      <time class="latest-post_time">3 days ago</time>
+    <div class="latest-post_article">
+      <div class="latest-post_time">3 days ago</div>
       <h1 class="latest-post_title">
         Smart interface design pattern in your pocket
       </h1>
@@ -102,7 +102,7 @@
         search, configurator, slider, …
       </p>
       <img class="latest-post_img" src="assets/images/arrow.svg" alt="arrow icon" />
-    </article>
+    </div>
     <article class="latest-post_article">
       <time class="latest-post_time">3 days ago</time>
       <h1 class="latest-post_title">
@@ -144,7 +144,7 @@
       <p class="ad-description">A friendly community that keeps this website alive. With books, <br> webinars, discounts
         and
         networking - for just 1 coffee a month. <span>Join the <br>family</span></p>
-      <a href="https://www.smashingmagazine.com/membership/"><button class="ad-btn">Explore features <img
+      <a href="https://www.smashingmagazine.com/membership/"><button class="ad-btn" type="button">Explore features <img
             class="ad-btn_img" src="assets/images/arrow.svg" alt="arrow icon"></button></a>
       <p class="ad-account"> Already have an account? <a>Sign in!</a></p>
     </div>
@@ -312,7 +312,7 @@
 
     <div class="person">
       <div class="profile-pic">
-        <img class="person-img" src="assets/images/matias.jpg">
+        <img class="person-img" src="assets/images/matias.jpg" alt="person profile pic">
       </div>
 
       <div class="profile-article">
