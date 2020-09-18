@@ -1,8 +1,17 @@
 html,
 body {
   position: relative;
-  font-family: "MijaW03-Regular";
   font-size: 75%;
+}
+
+:root {
+  --font-family: 'Jaldi', sans-serif;
+  --sdry-family: 'Lora', serif;
+  --mid-fsize: 1.5rem;
+  --top-hierarchy: rgb(49, 49, 49);
+  --mid-hierarchy: rgb(77, 77, 77);
+  --bot-hierarchy: rgb(139, 139, 139);
+  --content-color: #fff;
 }
 
 .header {
@@ -10,14 +19,33 @@ body {
   background-color: rgb(122, 122, 122);
 }
 
+/* ... General Classes... */
+
+.d-flex {
+  display: flex;
+}
+
+.c-fff {
+  color: var(--content-color);
+}
+
+.ff-Jadi {
+  font-family: var(--font-family);
+}
+
+.ff-Lora {
+  font-family: var(--sdry-family);
+}
+
+.mid-fs {
+  font-size: var(--mid-fsize);
+}
+
 /* ...navbar... */
 
 .navbar {
-  display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-family: "MijaW03-Regular";
 }
 
 .logo {
@@ -33,7 +61,7 @@ body {
 
 .navbar-list_link {
   border-radius: 10px;
-  padding: 1rem 1.2rem; 
+  padding: 1rem 1.2rem;
   font-size: 1.7rem;
   font-weight: 900;
   display: inline-block;
@@ -45,7 +73,7 @@ body {
   color: inherit;
 }
 
-.navbar-list_link:hover{
+.navbar-list_link:hover {
   background-color: rgb(49, 49, 49);
 }
 
@@ -83,7 +111,6 @@ body {
 /* ........ */
 
 .latest-articles {
-  display: flex;
   flex-wrap: wrap;
   font-size: 2rem;
   position: relative;
@@ -96,7 +123,6 @@ body {
   width: 30%;
   background-color: rgb(155, 155, 155);
   text-align: center;
-  color: white;
   font-size: 3rem;
   font-weight: bold;
   padding-top: 1.2rem;
@@ -110,7 +136,6 @@ body {
   width: 10%;
   background-color: rgb(155, 155, 155);
   text-align: center;
-  color: white;
   font-size: 3rem;
   font-weight: bold;
   padding-top: 1.2rem;
@@ -121,7 +146,6 @@ body {
   width: 50%;
   height: 100vh;
   background-color: rgb(138, 138, 138);
-  color: white;
 }
 
 .art {
@@ -131,15 +155,12 @@ body {
 }
 
 .imgheading {
-  display: flex;
-  align-items: top;
-  font-size: 1.5rem;
   font-weight: 900;
 }
 
 .profileimg {
   width: 6rem;
-  border: 5px solid white;
+  border: 5px solid var(--content-color);
   border-radius: 8px;
   transform: rotate(-15deg);
 }
@@ -154,7 +175,6 @@ body {
 
 .text {
   font-size: 3.5rem;
-  color: white;
   font-weight: bold;
   padding-top: 3rem;
 }
@@ -182,7 +202,7 @@ body {
 }
 
 
-/*Latest Post*/
+/* Latest Post */
 
 .latest-post {
   margin: 5rem;
@@ -213,7 +233,6 @@ body {
 }
 
 .latest-post_text {
-  font-size: 1.5rem;
   margin-bottom: 10rem;
   line-height: 2.5rem;
 }
@@ -230,45 +249,38 @@ body {
   background-color: rgb(75, 75, 75);
 }
 
-.ad-img{
-  width: 20%;
-}
-
-.ad-text{
-  position: relative;
-  top: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-}
-
 .ad-img {
+  width: 20%;
   position: absolute;
   left: 45rem;
   margin-top: 3rem;
-  
 }
 
-.ad-statistic{
+.ad-text {
+  position: relative;
+  top: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ad-statistic {
   font-size: 3.5rem;
   font-weight: 700;
   text-decoration: underline;
-
 }
 
-.ad-description{
+.ad-description {
   padding: 3% 0 3% 0;
   font-size: 1.3rem;
   text-align: center;
   line-height: 2.5rem;
 }
 
-.ad-description > span{
+.ad-description > span {
   text-decoration: underline;
 }
 
-.ad-btn{
+.ad-btn {
   cursor: pointer;
   border-radius: 10px;
   box-shadow: none;
@@ -279,27 +291,26 @@ body {
   width: 20rem;
 }
 
-.ad-btn_img{
+.ad-btn_img {
   width: 7%;
 }
 
-.ad-account{
+.ad-account {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
 
-.ad-account > a{
+.ad-account > a {
   text-decoration: underline;
 }
 
-/*Article + ad*/
+/* Article + ad */
 
-.article-ad{
+.article-ad {
   margin: 3%;
   display: grid;
   grid-template-columns: 30% 70%;
 }
-
 
 .article-ad_time {
   font-size: 1rem;
@@ -324,7 +335,6 @@ body {
 
 .article-ad_text {
   color: #000;
-  font-size: 1.5rem;
   margin-bottom: 10rem;
   line-height: 2.5rem;
 }
@@ -339,7 +349,7 @@ body {
   border-radius: 10px;
 }
 
-/* Article + Ad: Ad*/
+/* Article + Ad: Ad */
 
 .article-ad_ad_img {
   position: absolute;
@@ -348,34 +358,31 @@ body {
   width: 20%;
 }
 
-.article-ad_ad_text{
+.article-ad_ad_text {
   position: relative;
   top: 50%;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
 }
 
-.article-ad_ad_statistic{
+.article-ad_ad_statistic {
   font-size: 3.5rem;
   font-weight: 700;
   text-decoration: underline;
-
 }
 
-.article-ad_ad_description{
+.article-ad_ad_description {
   padding: 3% 0 3% 0;
   font-size: 1.3rem;
   text-align: center;
   line-height: 2.5rem;
 }
 
-.article-ad_ad_description > span{
+.article-ad_ad_description > span {
   text-decoration: underline;
 }
 
-.article-ad_ad_btn{
+.article-ad_ad_btn {
   cursor: pointer;
   border-radius: 10px;
   box-shadow: none;
@@ -386,74 +393,68 @@ body {
   width: 20rem;
 }
 
-.article-ad_ad_btn_img{
+.article-ad_ad_btn_img {
   width: 7%;
 }
 
-.article-ad_ad_account{
+.article-ad_ad_account {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
 
-.article-ad_account > a{
+.article-ad_account > a {
   text-decoration: underline;
 }
 
-
-.latest-articles_linkto{
+.latest-articles_linkto {
   width: 100%;
   margin-top: 5%;
-  font-size: 1.5rem;
-  display: flex;
   justify-content: center;
   color: rgb(63, 63, 63);
 }
 
-.latest-articles_linkto > a{
+.latest-articles_linkto > a {
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
 }
 
-.linkto-separator{
+.linkto-separator {
   width: 20rem;
   border: 3px solid rgb(71, 71, 71);
 }
 
-.linkto_img{
+.linkto_img {
   width: 4%;
 }
 
 
 /* Click */
 
-.click{
+.click {
   margin-top: 2%;
   height: 140vh;
   background-color: rgb(46, 46, 46);
-  color: #fff;
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.click-time{
-  font-size: 1.5rem;
+.click-time {
   margin-top: 3%;
 }
 
-.click-title{
+.click-title {
   font-size: 4rem;
   text-decoration: underline;
   margin: 3% 0 3% 0;
 }
 
-.click-description{
+.click-description {
   font-size: 1.6rem;
 }
 
-.click-button{
+.click-button {
   width: 30rem;
   border-radius: 10px;
   padding: 5%;
@@ -463,50 +464,47 @@ body {
   font-weight: 700;
 }
 
-.click-btn_img{
+.click-btn_img {
   width: 5%;
 }
 
-/* Community Links*/
+/* Community Links */
 
-.week-per{
+.week-per {
   display: grid;
   grid-template-columns: 20% 70%;
   grid-gap: 7rem;
   margin: 5% 3% 10% 5%;
-  font-family: 'Lora', serif;
 }
 
-.week-per_img{
+.week-per_img {
   border: 5px solid gray;
   border-radius: 30px;
   transform: rotate(-15deg);
 }
 
-.week-per_img:hover{
+.week-per_img:hover {
   transform: rotate(0deg);
 }
 
-.week-per_text > h1{
+.week-per_text > h1 {
   font-size: 2rem;
   margin-bottom: 3%;
   font-weight: lighter;
 }
 
-.week-per_text > p{
-  font-size: 1.5rem;
+.week-per_text > p {
   line-height: 2.5rem;
 }
 
-/* More profiles*/
+/* More profiles */
 
-.profiles{
+.profiles {
   margin: 5%;
-  display: flex;
   flex-wrap: wrap;
 }
 
-.person{
+.person {
   width: 50%;
   display: grid;
   grid-template-columns: 10% 60%;
@@ -514,40 +512,37 @@ body {
   margin-bottom: 10%;
 }
 
-.person-img{
+.person-img {
   border: 5px solid gray;
   border-radius: 20px;
   transform: rotate(-15deg);
 }
 
-.person-img:hover{
+.person-img:hover {
   transform: rotate(0deg);
 }
 
-.person-author{
-  font-size: 1.5rem;
+.person-author {
   color: gray;
 }
 
-.person-author > span{
+.person-author > span {
   text-decoration: underline;
 }
 
-.person-title{
+.person-title {
   font-size: 2.5rem;
   margin: 5% 0 5% 0;
 }
 
-.person-description{
-  font-size: 1.5rem;
+.person-description {
   line-height: 2.5rem;
 }
 
 .des {
   display: grid;
   grid-template-columns: 70% 30%;
-  background-color:rgb(70, 70, 70);
-  color: #fff;
+  background-color: rgb(70, 70, 70);
 }
 
 .des-sys {
@@ -556,22 +551,16 @@ body {
   margin: 4% 0 0 7%;
 }
 
-.des-section{
-  font-family: 'Lora', serif;
-  font-size: 1.5rem;
-}
-
-.des-title{
+.des-title {
   font-size: 4rem;
   margin: 3% 0 3% 0;
 }
 
-.des-description{
-  font-size: 1.5rem;
-  line-height: 2.5rem;  
+.des-description {
+  line-height: 2.5rem;
 }
 
-.des-btn{
+.des-btn {
   padding: 3%;
   border-radius: 10px;
   box-shadow: none;
@@ -580,14 +569,14 @@ body {
   margin-top: 1.5rem;
 }
 
-.des-cov{
+.des-cov {
   position: relative;
   top: -8rem;
   width: 23rem;
   transform: rotate(-15deg);
 }
 
-.des-cov:hover{
+.des-cov:hover {
   transform: rotate(0deg);
   transition: 0.3s;
 }
@@ -599,8 +588,6 @@ body {
   grid-gap: 2rem;
   width: 95%;
   margin: 0 auto;
-  font-style: 'Mija';
-  font-size: ;
 }
 
 .guide-smash {
@@ -629,21 +616,10 @@ body {
   font-size: 2.0833rem;
   padding: 1.5833rem;
   color: white;
+  background-color: rgb(66, 66, 66);
   font-weight: bold;
   border-radius: 7px;
   margin-top: 2.6667rem;
-}
-
-.green {
-  background-color: #19a972;
-}
-
-.orange {
-  background-color: #ff5a00;
-}
-
-.purple {
-  background-color: #aa1994;
 }
 
 .events {
@@ -651,14 +627,15 @@ body {
   width: 100%;
   margin: 2.5833rem auto;
   padding: 1.75rem 0;
-  background-color: #6E6E6E;
+  background-color: #6e6e6e;
   border-radius: 12px;
-  color: #fff;
 }
 
 .pad {
   padding: 2rem 2.6667rem 0 2.6667rem;
+
   /* width: 90%; */
+
   /* margin: 0 auto; */
 }
 
@@ -668,14 +645,12 @@ body {
 
 .newsleta {
   font-size: 3.75rem;
-  font-family: 'Mija';
   text-decoration: underline;
   padding: 0.8333rem 0;
 }
 
 .newsleta-text {
   font-size: 1.75rem;
-  font-family: 'Elena';
 }
 
 .newsleta-info {
@@ -694,27 +669,21 @@ body {
   padding: 1.5rem 2rem;
 }
 
-.form-ev .form-name {}
-
 .form-ev .ev-but {
   background-color: #676767;
-  color: #fff;
 }
 
 .sub {
-  font-family: "Elena";
-  font-size: 1.5rem;
   width: 56%;
   margin: 0 auto;
   text-align: center;
   padding: 1.1rem 1.5rem;
-  background-color: #7C7C7C;
+  background-color: #7c7c7c;
   border-radius: 10px;
 }
 
 .footer {
-  background-color:rgb(70, 70, 70);
-  font-family: 'Lora', serif;
+  background-color: rgb(70, 70, 70);
   margin-top: 5%;
 }
 
@@ -722,7 +691,6 @@ body {
   max-width: 122.667rem;
   width: 95%;
   text-align: center;
-  color: #fff;
   margin: 0 auto;
   padding: 2.7976rem 0 4.25rem;
 }
@@ -731,7 +699,6 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 2.525rem 0;
-  font-family: Elena;
 }
 
 .smash-topics {
@@ -754,25 +721,22 @@ body {
   text-decoration: none;
 }
 
-.smash-links:before {
+.smash-links::before {
   content: "•";
   padding-right: 0.5rem;
   color: rgb(48, 47, 47);
 }
-
-.info{}
 
 .cart {
   width: 6rem;
 }
 
 .foot-info {
-  font-family: 'Lora', serif;
   font-size: 1.3988rem;
   line-height: 1.2rem;
 }
 
-.info-msg{
+.info-msg {
   line-height: 2.3rem;
 }
 
@@ -780,20 +744,15 @@ body {
   font-style: italic;
 }
 
-.info-msg .net {
-  color: #fff;
-}
-
 .info-l {
   display: grid;
   grid-template-columns: 33% 67%;
 }
 
-.info-list{
+.info-list {
   padding: 1.3988rem 0;
   max-width: 41.96rem;
   width: 100%;
-  font-family: Elena;
   font-size: 1.4rem;
 }
 
@@ -803,7 +762,6 @@ body {
   margin: 0 0.4rem;
 }
 
-.info-links{
+.info-links {
   text-decoration: underline;
-  color: #fff;
 }
