@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Collaborative Project: Newyork times clone
+# Collaborative Project: Smashing Magazine heat map
 
 > This is a microverse student project for working with hierarchy of elements
 
