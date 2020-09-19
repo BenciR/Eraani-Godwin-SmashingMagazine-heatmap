@@ -63,7 +63,7 @@ html5validator index.html
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/EraaniR/SmashingMagazine-heatmap/issuess).
+Feel free to check the [issues page](https://github.com/EraaniR/SmashingMagazine-heatmap/issues).
 
 ## Show your support
 
@@ -71,5 +71,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.
 
